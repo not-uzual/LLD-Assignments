@@ -1,9 +1,51 @@
-Design a Parking Lot System
+Design a Multilevel Parking Lot System
 
-Requiremnets:
-- The parking lot has levels.
-- Each level has parking spots.
-- Each level has multiple gates.
-- Spots support different vehicle types.
-- Vehicle enters -> System finds first available valid spot -> Assign it -> Generates a Ticket.
-- Vehicle exits -> System frees the spot.
+Functional Requirements
+The parking lot should support three types of parking slots:
+- Small: for 2-wheelers
+- Medium: for cars
+- Large: for buses
+
+The system should maintain different hourly parking charges for each slot type.
+
+When a vehicle enters the parking lot, the system should:
+- assign a parking slot
+- generate a parking ticket
+- store the following information in the ticket:
+  - vehicle details
+  - allocated slot number
+  - allocated slot type
+  - entry time
+
+When a vehicle exits the parking lot, the system should:
+- calculate the parking duration using the entry and exit times
+- generate the bill
+- return the total amount to be paid
+
+The parking lot has multiple entry gates.
+The system should always assign the nearest available compatible slot based on the vehicle's entry gate.
+
+A smaller vehicle should be allowed to park in a larger slot if needed:
+- a 2-wheeler can park in a small, medium, or large slot
+- a car can park in a medium or large slot
+- a bus can park only in a large slot
+
+Billing should be based on the allocated slot type, not the vehicle type.
+For example, if a bike is parked in a medium slot, the charge should be calculated using the medium slot rate.
+
+APIs to be Supported
+The system should provide the following main functions:
+1. park(vehicleDetails, entryTime, requestedSlotType, entryGateID)
+   Parks a vehicle and returns the generated parking ticket.
+
+2. status()
+   Returns the current availability of parking slots by slot type.
+
+3. exit(parkingTicket, exitTime)
+   Processes vehicle exit and returns the generated bill amount.
+
+Expected Deliverables
+The solution should include:
+- Class Diagram
+- Code
+- Explanation of the design and approach
