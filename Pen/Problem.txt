@@ -1,0 +1,7 @@
+Design a Pen
+
+Requirements:
+- type of pen like ball, gel, ink with click or cap
+- color for one pen fixed but can be changed on refill
+- Behaviour like start, write, end and refill
+- 

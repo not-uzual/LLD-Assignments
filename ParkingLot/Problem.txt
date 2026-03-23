@@ -1,0 +1,9 @@
+Design a Parking Lot System
+
+Requiremnets:
+- The parking lot has levels.
+- Each level has parking spots.
+- Each level has multiple gates.
+- Spots support different vehicle types.
+- Vehicle enters -> System finds first available valid spot -> Assign it -> Generates a Ticket.
+- Vehicle exits -> System frees the spot.

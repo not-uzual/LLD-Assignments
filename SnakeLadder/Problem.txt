@@ -1,0 +1,9 @@
+Design a Snake and Ladder Game
+
+Requirements:
+- User will provide you size of the board, number of snakes, ladders and players and mode of the game.
+- Each position contain one of snake or ladder or nothing
+- Each player will play in round robin order until someone wins
+- Their is two game mode
+    - Easy(After 3 six, you will get chance)
+    - Haed(After 3 six, chance skipped)
