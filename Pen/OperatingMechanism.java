@@ -1,4 +1,4 @@
-package LLD_Assignment.Design_Assignment.Pen;
+package Pen;
 
 public interface OperatingMechanism {
     void start();

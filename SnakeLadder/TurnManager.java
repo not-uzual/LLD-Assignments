@@ -1,4 +1,4 @@
-package LLD_Assignment.Design_Assignment.SnakeLadder;
+package SnakeLadder;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

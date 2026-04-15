@@ -1,4 +1,4 @@
-package LLD_Assignment.Design_Assignment.ParkingLot;
+package ParkingLot;
 
 import java.time.LocalDateTime;
 import java.util.EnumMap;

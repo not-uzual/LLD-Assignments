@@ -1,4 +1,4 @@
-package LLD_Assignment.Design_Assignment.ParkingLot;
+package ParkingLot;
 
 import java.util.ArrayList;
 import java.util.List;

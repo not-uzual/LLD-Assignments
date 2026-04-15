@@ -1,4 +1,4 @@
-package LLD_Assignment.Design_Assignment.SnakeLadder;
+package SnakeLadder;
 
 public enum TurnAction {
     CONTINUE,

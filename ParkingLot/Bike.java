@@ -1,4 +1,4 @@
-package LLD_Assignment.Design_Assignment.ParkingLot;
+package ParkingLot;
 
 public class Bike extends Vehicle {
     public Bike(String licenseNumber) {

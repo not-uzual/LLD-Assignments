@@ -1,4 +1,4 @@
-package LLD_Assignment.Design_Assignment.SnakeLadder;
+package SnakeLadder;
 
 public class Dice {
     private final int faces;
